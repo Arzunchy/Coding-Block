@@ -2,12 +2,13 @@
 using namespace std;
 
 int main() {
-    int n = 7;
+    int n = 7, x;
 
     for(int i = 1; i <= 10; i++) {
-        n = n*i;        
-        cout << n << endl;
-    }
+    x = 7 * i;
+    cout << x << endl;
+}
+
 
     return 0;
 }

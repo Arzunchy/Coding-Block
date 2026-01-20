@@ -14,7 +14,7 @@ int main() {
     return 0;
 }
 
-#check without loop
+
 #include <iostream>
 using namespace std;
 
