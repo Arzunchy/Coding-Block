@@ -24,9 +24,8 @@ int main(){
 #include <iostream>
 using namespace std;
 
-int main() {
-    int n;
-    cin >> n;
+int main(){
+    int n = 5,i,j,s;
 
     for(int i = 1; i <= n; i++) {
         

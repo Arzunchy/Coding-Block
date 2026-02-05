@@ -6,12 +6,11 @@ int main() {
 
     cout << "Enter number: ";
     cin >> n;
-
-    for(; n > 0; n = n / 10) {
-        sum = sum + (n % 10);  
+    while(n>0){
+        sum = sum + n%10;
+        n =n/10;
     }
-
-    cout << "Sum of digits " << sum;
+    cout << sum;
 
     return 0;
 }
