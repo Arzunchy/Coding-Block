@@ -1,7 +1,7 @@
 //for the input and output from the user
 
 #include<iostream>
-using namespace std;
+using namespace std; 
 
 int main(){
     int n, arr[100];
